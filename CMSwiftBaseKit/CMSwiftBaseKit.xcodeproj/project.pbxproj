@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		32411CF71E26124700887B6E /* CMSwiftBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 32411CF51E26124700887B6E /* CMSwiftBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32411D031E26137C00887B6E /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32411CFF1E26137C00887B6E /* NetworkConfig.swift */; };
-		32411D041E26137C00887B6E /* BaseModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32411D011E26137C00887B6E /* BaseModelConfig.swift */; };
-		32411D051E26137C00887B6E /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32411D021E26137C00887B6E /* ViewModelType.swift */; };
-		32411D081E2613DE00887B6E /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32411D071E2613DE00887B6E /* Operators.swift */; };
+		32411D111E2623F700887B6E /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32411D0B1E2623F700887B6E /* NetworkConfig.swift */; };
+		32411D121E2623F700887B6E /* BaseModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32411D0D1E2623F700887B6E /* BaseModelConfig.swift */; };
+		32411D131E2623F700887B6E /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32411D0E1E2623F700887B6E /* ViewModelType.swift */; };
+		32411D141E2623F700887B6E /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32411D101E2623F700887B6E /* Operators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32411CF21E26124700887B6E /* CMSwiftBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMSwiftBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32411CF51E26124700887B6E /* CMSwiftBaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSwiftBaseKit.h; sourceTree = "<group>"; };
 		32411CF61E26124700887B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32411CFF1E26137C00887B6E /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
-		32411D011E26137C00887B6E /* BaseModelConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModelConfig.swift; sourceTree = "<group>"; };
-		32411D021E26137C00887B6E /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
-		32411D071E2613DE00887B6E /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		32411D0B1E2623F700887B6E /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		32411D0D1E2623F700887B6E /* BaseModelConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModelConfig.swift; sourceTree = "<group>"; };
+		32411D0E1E2623F700887B6E /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		32411D101E2623F700887B6E /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,44 +54,45 @@
 		32411CF41E26124700887B6E /* CMSwiftBaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				32411CFD1E26137C00887B6E /* Source */,
+				32411D091E2623F700887B6E /* Source */,
 				32411CF51E26124700887B6E /* CMSwiftBaseKit.h */,
 				32411CF61E26124700887B6E /* Info.plist */,
 			);
 			path = CMSwiftBaseKit;
 			sourceTree = "<group>";
 		};
-		32411CFD1E26137C00887B6E /* Source */ = {
+		32411D091E2623F700887B6E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				32411D061E2613DE00887B6E /* Utils */,
-				32411CFE1E26137C00887B6E /* Network */,
-				32411D001E26137C00887B6E /* Protocols */,
+				32411D0A1E2623F700887B6E /* Network */,
+				32411D0C1E2623F700887B6E /* Protocols */,
+				32411D0F1E2623F700887B6E /* Utils */,
 			);
-			path = Source;
-			sourceTree = SOURCE_ROOT;
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
 		};
-		32411CFE1E26137C00887B6E /* Network */ = {
+		32411D0A1E2623F700887B6E /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				32411CFF1E26137C00887B6E /* NetworkConfig.swift */,
+				32411D0B1E2623F700887B6E /* NetworkConfig.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		32411D001E26137C00887B6E /* Protocols */ = {
+		32411D0C1E2623F700887B6E /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				32411D011E26137C00887B6E /* BaseModelConfig.swift */,
-				32411D021E26137C00887B6E /* ViewModelType.swift */,
+				32411D0D1E2623F700887B6E /* BaseModelConfig.swift */,
+				32411D0E1E2623F700887B6E /* ViewModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		32411D061E2613DE00887B6E /* Utils */ = {
+		32411D0F1E2623F700887B6E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				32411D071E2613DE00887B6E /* Operators.swift */,
+				32411D101E2623F700887B6E /* Operators.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -176,10 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32411D041E26137C00887B6E /* BaseModelConfig.swift in Sources */,
-				32411D081E2613DE00887B6E /* Operators.swift in Sources */,
-				32411D031E26137C00887B6E /* NetworkConfig.swift in Sources */,
-				32411D051E26137C00887B6E /* ViewModelType.swift in Sources */,
+				32411D121E2623F700887B6E /* BaseModelConfig.swift in Sources */,
+				32411D141E2623F700887B6E /* Operators.swift in Sources */,
+				32411D111E2623F700887B6E /* NetworkConfig.swift in Sources */,
+				32411D131E2623F700887B6E /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
