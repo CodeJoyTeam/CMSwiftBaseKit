@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target 'CMSwiftBaseKit' do
+pod 'SnapKit', '~> 3.0.2'
+pod 'EZSwiftExtensions'
+pod 'RxCocoa', '~> 3.0.0-rc.1'
+pod 'RxDataSources', '~> 1.0.0-rc.2'
+pod 'Toast-Swift'
+end

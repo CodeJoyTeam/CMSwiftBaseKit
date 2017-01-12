@@ -1,0 +1,29 @@
+PODS:
+  - EZSwiftExtensions (1.8)
+  - RxCocoa (3.0.1):
+    - RxSwift (~> 3.0)
+  - RxDataSources (1.0.0):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.0.1)
+  - SnapKit (3.0.2)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - EZSwiftExtensions
+  - RxCocoa (~> 3.0.0-rc.1)
+  - RxDataSources (~> 1.0.0-rc.2)
+  - SnapKit (~> 3.0.2)
+  - Toast-Swift
+
+SPEC CHECKSUMS:
+  EZSwiftExtensions: b58e0fe7702e30c4f01bd039658fe84b4fdf5bd5
+  RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
+  RxDataSources: 824693e84d00781d0a5e5cedc1ff95ce9250aacd
+  RxSwift: af5680055c4ad04480189c52d28385b1029493a6
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: a4bf488e7f35e907ba1171f6624d3bb60bd88599
+
+COCOAPODS: 1.1.1
