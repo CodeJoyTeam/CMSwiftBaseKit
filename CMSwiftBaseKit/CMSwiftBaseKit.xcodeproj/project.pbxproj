@@ -23,6 +23,7 @@
 		324E5ACD1E27537A00B95343 /* Dependence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E5ACA1E27537A00B95343 /* Dependence.swift */; };
 		324E5ACE1E27537A00B95343 /* DispatchWorkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E5ACB1E27537A00B95343 /* DispatchWorkItem.swift */; };
 		324E5ACF1E27537A00B95343 /* RegexHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E5ACC1E27537A00B95343 /* RegexHelper.swift */; };
+		324E5AF01E2C5DED00B95343 /* CMCheckUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E5AEF1E2C5DED00B95343 /* CMCheckUpdate.swift */; };
 		CB981A91E15C94B287CDAF99 /* Pods_CMSwiftBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F2112A536183FAB033809 /* Pods_CMSwiftBaseKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		324E5ACA1E27537A00B95343 /* Dependence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependence.swift; sourceTree = "<group>"; };
 		324E5ACB1E27537A00B95343 /* DispatchWorkItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchWorkItem.swift; sourceTree = "<group>"; };
 		324E5ACC1E27537A00B95343 /* RegexHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexHelper.swift; sourceTree = "<group>"; };
+		324E5AEF1E2C5DED00B95343 /* CMCheckUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCheckUpdate.swift; sourceTree = "<group>"; };
 		936F2112A536183FAB033809 /* Pods_CMSwiftBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMSwiftBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF229567C0C8E8EFC4A6C03 /* Pods-CMSwiftBaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMSwiftBaseKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMSwiftBaseKit/Pods-CMSwiftBaseKit.release.xcconfig"; sourceTree = "<group>"; };
 		E03FD3A70BA429E4125010D8 /* Pods-CMSwiftBaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMSwiftBaseKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMSwiftBaseKit/Pods-CMSwiftBaseKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		324E5AC11E274EC400B95343 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				324E5AEF1E2C5DED00B95343 /* CMCheckUpdate.swift */,
 				324E5AC81E27530A00B95343 /* Wireframe.swift */,
 				324E5AC21E274EC400B95343 /* ActivityIndicator.swift */,
 				324E5AC31E274EC400B95343 /* Reachability.swift */,
@@ -300,6 +303,7 @@
 				324E5AB91E274C1900B95343 /* SectionViewModel.swift in Sources */,
 				32411D131E2623F700887B6E /* ViewModelType.swift in Sources */,
 				324E5ABF1E274E1900B95343 /* UIDevice+DeviceType.swift in Sources */,
+				324E5AF01E2C5DED00B95343 /* CMCheckUpdate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
