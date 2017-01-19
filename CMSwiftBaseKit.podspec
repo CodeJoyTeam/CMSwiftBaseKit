@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
       基础工具类库，包括网络请求、基础视图等等
                    DESC
 
-  s.homepage     = "https://github.com/LeoFangQ/CMSwiftBaseKit"
+  s.homepage     = "https://github.com/CodeJoyTeam/CMSwiftBaseKit"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/LeoFangQ/CMSwiftBaseKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/CodeJoyTeam/CMSwiftBaseKit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
